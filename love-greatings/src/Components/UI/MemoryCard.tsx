@@ -26,6 +26,7 @@ export default function MemoryCard({ item, onClick }: MemoryCardProps) {
     >
       <img
         src={item.img}
+        alt={item.title}
         className="w-full h-60 object-cover"
       />
 
